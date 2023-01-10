@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button class="example-icon" aria-label="Icon-button with menu icon" (click)="toggleSidebar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>MyStudyPlanner</span>
+    <span class="example-spacer"></span>
+    <ul class="row-container">
+      <li>
+        <button mat-icon-button>
+          <mat-icon>settings</mat-icon>
+        </button>
+      </li>
+      <li>
+        <button mat-icon-button>
+          <mat-icon>help_outline</mat-icon>
+        </button>
+      </li>
+    </ul>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>person_outline</mat-icon></button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item class="menu-content-item">
+        <mat-icon>exit_to_app</mat-icon><span>Sign out</span>
+      </button>
+      <button mat-menu-item class="menu-content-item">
+        <mat-icon>exit_to_app</mat-icon><span>Sign out sdvfsdv</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>

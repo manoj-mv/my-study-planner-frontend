@@ -1,34 +1,6 @@
 <div class="sidebar-container">
 
-  <mat-card class="profile-card mat-elevation-z2">
-    <mat-card-header>
-      <div mat-card-avatar class="profile-card-header-image"></div>
-      <mat-card-title> user
-        <!-- <button mat-icon-button><mat-icon>edit</mat-icon></button> -->
-      </mat-card-title>
-      <mat-card-subtitle>
-        <p> 🟢 Focused..</p>
-      </mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="/assets/images/ann.jpg" alt="Profile image">
-    <mat-card-content>
-      <p>anniesjose@gmail.com </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <div class="matero-user-panel-icons">
-        <button mat-icon-button routerLink="/profile/overview">
-          <mat-icon class="icon-18">account_circle</mat-icon>
-        </button>
-        <button mat-icon-button routerLink="/profile/settings">
-          <mat-icon class="icon-18">settings</mat-icon>
-        </button>
-        <button mat-icon-button>
-          <mat-icon class="icon-18">exit_to_app</mat-icon>
-        </button>
-      </div>
-    </mat-card-actions>
-  </mat-card>
-  <!-- <mat-divider></mat-divider> -->
+  <app-profile-card class="mat-elevation-z2"></app-profile-card>
   <mat-nav-list>
     <h2 matSubheader class="h2-padding">Pages</h2>
     <a mat-list-item routerLink="/" routerLinkActive="active-link">

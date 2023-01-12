@@ -23,7 +23,7 @@ import { DashboardModule } from '../dashboard/dashboard.module';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    DashboardModule
+    DashboardModule,
   ],
   exports: [
     DefaultComponent

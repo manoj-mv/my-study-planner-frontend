@@ -1,0 +1,22 @@
+.register-form {
+  padding: 1rem 0;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  overflow: hidden;
+
+  .auth-button {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 16px;
+  }
+
+  .mat-mdc-raised-button:disabled {
+    background-color: rgb(138, 149, 201);
+    color: #FFFFFF;
+  }
+}
+
+.register-full-width {
+  width: 100%;
+}

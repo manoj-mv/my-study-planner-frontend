@@ -1,0 +1,29 @@
+.login-form {
+  padding: 1rem 0;
+  margin: 0 0 1.1rem 0;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+
+  .auth-button {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+
+    :disabled {
+      color: #FFFFFF;
+      background-color: #008cba
+    }
+  }
+
+  .mat-mdc-raised-button:disabled {
+    background-color: rgb(138, 149, 201);
+    color: #FFFFFF;
+  }
+}
+
+
+.login-full-width {
+  width: 100%;
+}

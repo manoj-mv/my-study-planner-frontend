@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
-import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterModule } from '@angular/router';
+import { ProfileCardComponent } from '../profile-card/profile-card.component';
 @Component({
   selector: 'app-sidebar',
   standalone: true,
@@ -13,10 +12,10 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     MatDividerModule,
     MatListModule,
-    MatCardModule,
-    MatButtonModule,
     MatIconModule,
-    RouterModule
+    RouterModule,
+
+    ProfileCardComponent
   ],
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss']
